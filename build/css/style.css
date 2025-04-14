@@ -650,7 +650,7 @@ video {
   }
 
   80% {
-    transform: scaleY(1,2);
+    transform: scaleY(1.2);
   }
 
   100% {
@@ -659,7 +659,7 @@ video {
 }
 
 .animate-open-menu {
-  animation: open-menu 0.5 ease-in-out forwards;
+  animation: open-menu 0.5s ease-in-out forwards;
 }
 
 .cursor-pointer {
