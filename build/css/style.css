@@ -656,6 +656,10 @@ video {
   max-width: 56rem;
 }
 
+.max-w-5xl {
+  max-width: 64rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -1239,8 +1243,8 @@ video {
     line-height: 2.5rem;
   }
 
-  .sm\:text-5xl {
-    font-size: 3rem;
+  .sm\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 }
@@ -1265,7 +1269,7 @@ video {
   }
 }
 
-@media (min-aspect-ratio: 13/20) {
+@media (max-aspect-ratio: 13/20) {
   .tallscreen\:section-min-height{
     min-height:calc(100vh - 68px)
   }
